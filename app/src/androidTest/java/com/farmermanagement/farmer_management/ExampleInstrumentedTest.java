@@ -1,4 +1,4 @@
-package com.sampleloginapp.farmer_management;
+package com.farmermanagement.farmer_management;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.sampleloginapp.farmer_management", appContext.getPackageName());
+        assertEquals("com.farmermanagement.farmer_management", appContext.getPackageName());
     }
 }

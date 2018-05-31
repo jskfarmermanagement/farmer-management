@@ -1,4 +1,4 @@
-package com.sampleloginapp.farmer_management;
+package com.farmermanagement.farmer_management;
 
 import org.junit.Test;
 
