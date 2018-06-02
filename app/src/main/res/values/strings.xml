@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">farmer-management</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="add_farmer_page_title">Add Farmer</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_son_of">S/O</string>
+    <string name="hint_village">Village</string>
+    <string name="hint_mobile_no">Mob No.</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
 </resources>
