@@ -12,6 +12,8 @@ import android.widget.Toast;
 import com.farmermanagement.farmer_management.database.DatabaseHelper;
 import com.farmermanagement.farmer_management.database.model.AddFarmer;
 
+import java.util.List;
+
 public class FarmerActivity extends AppCompatActivity {
 
     private EditText farmerName,fatherName,village,mobile;
@@ -45,6 +47,8 @@ public class FarmerActivity extends AppCompatActivity {
                 Toast.makeText(FarmerActivity.this,"Data Clear.",Toast.LENGTH_SHORT).show();
             }
         });
+        List<AddFarmer> farmers= databaseHelper.getAllFarmers();
+        System.out.print(farmers.size());
     }
 
 

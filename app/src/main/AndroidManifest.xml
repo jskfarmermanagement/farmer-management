@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CropsActivity" android:label="@string/add_crops_page_title">
+            
+        </activity>
     </application>
 
 </manifest>
