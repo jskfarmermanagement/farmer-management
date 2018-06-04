@@ -11,7 +11,7 @@ public class AddFarmer {
     public static final String COLUMN_MOBILE = "mobile";
     public static final String COLUMN_TIMESTAMP = "timestamp";
 
-    private int id;
+    private Integer id;
     private String farmerName;
     private String fatherName;
     private String village;
@@ -33,7 +33,7 @@ public class AddFarmer {
     public AddFarmer() {
     }
 
-    public AddFarmer(int id, String farmerName, String fatherName, String village, String mobile, String timestamp) {
+    public AddFarmer(Integer id, String farmerName, String fatherName, String village, String mobile, String timestamp) {
         this.id = id;
         this.farmerName = farmerName;
         this.fatherName = fatherName;
@@ -83,11 +83,11 @@ public class AddFarmer {
         this.timestamp = timestamp;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
