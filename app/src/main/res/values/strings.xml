@@ -1,11 +1,21 @@
 <resources>
-    <string name="app_name">Add Farmer</string>
+    <string name="app_name">JSK Farmer Management</string>
     <string name="add_farmer_page_title">Add Farmer</string>
     <string name="hint_name">Farmer Name</string>
     <string name="hint_son_of">S/O</string>
     <string name="hint_village">Village</string>
     <string name="hint_mobile_no">Mobile No</string>
+    <string name="add_crops_page_title">Add Crops</string>
+    <string name="hint_crop_name">Crop Name</string>
+    <string name="hint_bag_size">Bag Size(In KGs)</string>
+    <string name="add_agency_page_title">Add Agency</string>
+    <string name="hint_agency_name">Agency Name</string>
+    <string name="add_centre_page_title">Add Centre</string>
+    <string name="hint_centre_name">Centre Name</string>
     <string name="btn_save">Save</string>
     <string name="btn_cancel">Cancel</string>
-    <string name="add_crops_page_title">Add Crops</string>
+    <string name="btn_add_farmer">Add Farmer</string>
+    <string name="btn_start_season">Start Season</string>
+    <string name="year">Year</string>
+    <string name="crop">Crop</string>
 </resources>
