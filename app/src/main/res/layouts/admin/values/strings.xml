@@ -1,0 +1,5 @@
+<resources>
+    <string name="btn_add_agency">Add Agency</string>
+    <string name="btn_add_centre">Add Centre</string>
+    <string name="btn_add_crops">Add Crops</string>
+</resources>
